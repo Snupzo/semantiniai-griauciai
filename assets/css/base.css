@@ -48,7 +48,8 @@
   --space-16: 8.75rem;    /* 140px */
 
   /* Layout */
-  --container-max-width: 1110px;
+/*  --container-max-width: 1440px; */
+	--max-width: 1440px;
 }
 
 /* CSS Reset / Normalize */
@@ -74,7 +75,7 @@ body {
   font-size: var(--fs-body-1);
   font-weight: var(--fw-semibold);
   line-height: var(--lh-body-1);
-  background-color: var(--color-midnight-green);
+/*  background-color: var(--color-midnight-green); */
   color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
