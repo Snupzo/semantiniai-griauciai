@@ -26,10 +26,10 @@ jobs:
           done
       - name: Check essential HTML tags and CSS link
         run: |
-          for file in index.html about.html contact.html; do
+          for file in index.html pages/about.html pages/contact.html; do
             grep -qi "<!DOCTYPE html>" "$file"
             grep -qi "<title>" "$file"
-            grep -qi 'href="style/"' "$file"
+            grep -qi 'href="style/' "$file"
           done
 
 
