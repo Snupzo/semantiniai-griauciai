@@ -70,12 +70,13 @@ html {
 
 body {
   min-height: 100vh;
-  margin: 0;
+  max-width: var(--max-width);
+  margin-inline: auto;
   font-family: var(--font-primary);
   font-size: var(--fs-body-1);
   font-weight: var(--fw-semibold);
   line-height: var(--lh-body-1);
-/*  background-color: var(--color-midnight-green); */
+  /* background-color: var(--color-midnight-green); */
   color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
