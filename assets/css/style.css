@@ -29,25 +29,25 @@
   margin-right: 80px;
 }
 
-.navLinks {
+.nav-links {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.navLinks a {
+.nav-links a {
   font-size: var(--fs-body-1);
   font-weight: var(--fw-semibold);
   line-height: var(--lh-body-1);
   transition: color 0.2s ease;
 }
 
-.navLinks a:hover,
-.navLinks a:focus-visible {
+.nav-links a:hover,
+.nav-links a:focus-visible {
   color: var(--color-light-coral);
 }
 
-.btnOutline {
+.btn-outline {
   margin-left: auto;
   display: inline-flex;
   align-items: center;
@@ -63,58 +63,58 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.btnOutline:hover,
-.btnOutline:focus-visible {
+.btn-outline:hover,
+.btn-outline:focus-visible {
   background-color: var(--color-white);
   color: var(--color-dark-green);
 }
 
-.heroContent {
+.hero-content {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 30px;
 }
 
-.heroTitle {
+.hero-title {
   max-width: 635px;
   font-size: var(--fs-h1-lg);
   font-weight: var(--fw-bold);
   line-height: var(--lh-h1-lg);
 }
 
-.heroTitle span {
+.hero-title span {
   color: var(--color-light-coral);
 }
 
-.heroDescription {
+.hero-description {
   max-width: 445px;
 }
 
-.accentLine {
+.accent-line {
   width: 50px;
   height: 4px;
   background-color: var(--color-rapture-blue);
   margin-bottom: 79px;
 }
 
-.heroDescription p {
+.hero-description p {
   font-size: var(--fs-body-1);
   font-weight: var(--fw-semibold);
   line-height: var(--lh-body-1);
 }
 
-.patternLeft {
+.pattern-left {
   position: absolute;
   top: 250px;
-  left: -50px;
+  left: -100px;
   width: 200px;
   height: 200px;
   pointer-events: none;
   z-index: 1;
 }
 
-.patternBottom {
+.pattern-bottom {
   position: absolute;
   bottom: 0;
   right: 165px;
@@ -134,7 +134,7 @@
   overflow: hidden;
 }
 
-.directorsTitle {
+.directors-title {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
   line-height: var(--lh-h2);
@@ -143,14 +143,14 @@
   margin-bottom: 64px;
 }
 
-.directorsGrid {
+.directors-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
   row-gap: 76px;
 }
 
-.directorCard {
+.director-card {
   position: relative;
   min-height: 253px;
   background-color: var(--color-sacramento-state-green);
@@ -161,7 +161,7 @@
   align-items: center;
 }
 
-.directorAvatar {
+.director-avatar {
   width: 96px;
   height: 96px;
   border-radius: 50%;
@@ -169,7 +169,7 @@
   margin: 0 auto 16px;
 }
 
-.directorAvatarPlaceholder {
+.director-avatar-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,14 +180,14 @@
   font-weight: var(--fw-bold);
 }
 
-.directorName {
+.director-name {
   font-size: var(--fs-h3);
   font-weight: var(--fw-bold);
   line-height: var(--lh-h3);
   color: var(--color-rapture-blue);
 }
 
-.directorRole {
+.director-role {
   font-size: var(--fs-body-2);
   font-style: italic;
   font-weight: var(--fw-medium);
@@ -195,7 +195,7 @@
   color: var(--color-white);
 }
 
-.cardBack {
+.card-back {
   display: none;
   padding-top: 3px;
 }
