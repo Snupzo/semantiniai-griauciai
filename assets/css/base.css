@@ -69,8 +69,9 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  height: 700px;
   max-width: var(--max-width);
+  min-width: var(--max-width);
   margin-inline: auto;
   font-family: var(--font-primary);
   font-size: var(--fs-body-1);
