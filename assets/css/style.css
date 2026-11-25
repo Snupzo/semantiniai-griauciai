@@ -2,14 +2,14 @@
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: var(--container-max-width, 1110px);
+  max-width: var(--containerMaxWidth, 1110px);
   margin: 0 auto;
 }
 
 /* Header / Hero */
 .hero {
   position: relative;
-  background-color: var(--color-midnight-green);
+  background-color: var(--colorMidnightGreen);
   padding: 73px 0 250px;
   overflow: hidden;
 }
@@ -22,10 +22,10 @@
 
 .logo {
   font-size: 40px;
-  font-weight: var(--fw-bold);
+  font-weight: var(--fwBold);
   line-height: 1;
   letter-spacing: -0.5px;
-  color: var(--color-white);
+  color: var(--colorWhite);
   margin-right: 80px;
 }
 
@@ -36,15 +36,15 @@
 }
 
 .navLinks a {
-  font-size: var(--fs-body-1);
-  font-weight: var(--fw-semibold);
-  line-height: var(--lh-body-1);
+  font-size: var(--fsBody1);
+  font-weight: var(--fwSemibold);
+  line-height: var(--lhBody1);
   transition: color 0.2s ease;
 }
 
 .navLinks a:hover,
 .navLinks a:focus-visible {
-  color: var(--color-light-coral);
+  color: var(--colorLightCoral);
 }
 
 .btnOutline {
@@ -54,19 +54,19 @@
   justify-content: center;
   height: 48px;
   padding: 0 32px;
-  border: 2px solid var(--color-white);
+  border: 2px solid var(--colorWhite);
   border-radius: 9999px;
-  font-size: var(--fs-body-1);
-  font-weight: var(--fw-semibold);
+  font-size: var(--fsBody1);
+  font-weight: var(--fwSemibold);
   line-height: 1;
-  color: var(--color-white);
+  color: var(--colorWhite);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .btnOutline:hover,
 .btnOutline:focus-visible {
-  background-color: var(--color-white);
-  color: var(--color-dark-green);
+  background-color: var(--colorWhite);
+  color: var(--colorDarkGreen);
 }
 
 .heroContent {
@@ -78,13 +78,13 @@
 
 .heroTitle {
   max-width: 635px;
-  font-size: var(--fs-h1-lg);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-h1-lg);
+  font-size: var(--fsH1Lg);
+  font-weight: var(--fwBold);
+  line-height: var(--lhH1Lg);
 }
 
 .heroTitle span {
-  color: var(--color-light-coral);
+  color: var(--colorLightCoral);
 }
 
 .heroDescription {
@@ -94,20 +94,20 @@
 .accentLine {
   width: 50px;
   height: 4px;
-  background-color: var(--color-rapture-blue);
+  background-color: var(--colorRaptureBlue);
   margin-bottom: 79px;
 }
 
 .heroDescription p {
-  font-size: var(--fs-body-1);
-  font-weight: var(--fw-semibold);
-  line-height: var(--lh-body-1);
+  font-size: var(--fsBody1);
+  font-weight: var(--fwSemibold);
+  line-height: var(--lhBody1);
 }
 
 .patternLeft {
   position: absolute;
   top: 250px;
-  left: -50px;
+  left: -100px;
   width: 200px;
   height: 200px;
   pointer-events: none;
@@ -129,17 +129,17 @@
   position: relative;
   width: 100%;
   min-height: 1002px;
-  background-color: var(--color-deep-jungle-green);
+  background-color: var(--colorDeepJungleGreen);
   padding: 140px 0 168px;
   overflow: hidden;
 }
 
 .directorsTitle {
-  font-size: var(--fs-h2);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-h2);
+  font-size: var(--fsH2);
+  font-weight: var(--fwBold);
+  line-height: var(--lhH2);
   text-align: center;
-  color: var(--color-white);
+  color: var(--colorWhite);
   margin-bottom: 64px;
 }
 
@@ -153,7 +153,7 @@
 .directorCard {
   position: relative;
   min-height: 253px;
-  background-color: var(--color-sacramento-state-green);
+  background-color: var(--colorSacramentoStateGreen);
   padding: 32px 24px 56px;
   text-align: center;
   display: flex;
@@ -174,25 +174,25 @@
   align-items: center;
   justify-content: center;
   border: 2px solid #c4fffe;
-  background-color: var(--color-midnight-green);
-  color: var(--color-rapture-blue);
+  background-color: var(--colorMidnightGreen);
+  color: var(--colorRaptureBlue);
   font-size: 28px;
-  font-weight: var(--fw-bold);
+  font-weight: var(--fwBold);
 }
 
 .directorName {
-  font-size: var(--fs-h3);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-h3);
-  color: var(--color-rapture-blue);
+  font-size: var(--fsH3);
+  font-weight: var(--fwBold);
+  line-height: var(--lhH3);
+  color: var(--colorRaptureBlue);
 }
 
 .directorRole {
-  font-size: var(--fs-body-2);
+  font-size: var(--fsBody2);
   font-style: italic;
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-body-2);
-  color: var(--color-white);
+  font-weight: var(--fwMedium);
+  line-height: var(--lhBody2);
+  color: var(--colorWhite);
 }
 
 .cardBack {
@@ -200,47 +200,47 @@
   padding-top: 3px;
 }
 
-.director-card.is-active .card-front {
+.directorCard.isActive .cardFront {
   display: none;
 }
 
-.director-card.is-active .card-back {
+.directorCard.isActive .cardBack {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.director-quote {
+.directorQuote {
   max-width: 254px;
   margin: 8px 0 24px;
-  font-size: var(--fs-body-2);
-  font-weight: var(--fw-semibold);
-  line-height: var(--lh-body-2);
-  color: var(--color-white);
+  font-size: var(--fsBody2);
+  font-weight: var(--fwSemibold);
+  line-height: var(--lhBody2);
+  color: var(--colorWhite);
 }
 
-.social-links {
+.socialLinks {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
 
-.social-links a {
-  color: var(--color-white);
+.socialLinks a {
+  color: var(--colorWhite);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-.social-links a:hover,
-.social-links a:focus-visible {
-  color: var(--color-light-coral);
+.socialLinks a:hover,
+.socialLinks a:focus-visible {
+  color: var(--colorLightCoral);
   opacity: 0.85;
 }
 
-.card-toggle {
+.cardToggle {
   position: absolute;
   left: 50%;
   bottom: -28px;
@@ -255,40 +255,40 @@
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.card-toggle:hover,
-.card-toggle:focus-visible {
+.cardToggle:hover,
+.cardToggle:focus-visible {
   transform: translateX(-50%) scale(1.05);
 }
 
-.card-toggle .icon-plus {
+.cardToggle .iconPlus {
   width: 56px;
   height: 56px;
 }
 
-.card-toggle .icon-close {
+.cardToggle .iconClose {
   width: 16px;
   height: 16px;
   display: none;
 }
 
-.director-card.is-active .card-toggle {
-  background-color: var(--color-rapture-blue);
+.directorCard.isActive .cardToggle {
+  background-color: var(--colorRaptureBlue);
 }
 
-.director-card.is-active .card-toggle:hover,
-.director-card.is-active .card-toggle:focus-visible {
-  background-color: var(--color-light-coral);
+.directorCard.isActive .cardToggle:hover,
+.directorCard.isActive .cardToggle:focus-visible {
+  background-color: var(--colorLightCoral);
 }
 
-.director-card.is-active .card-toggle .icon-plus {
+.directorCard.isActive .cardToggle .iconPlus {
   display: none;
 }
 
-.director-card.is-active .card-toggle .icon-close {
+.directorCard.isActive .cardToggle .iconClose {
   display: block;
 }
 
-.directors-pattern-top {
+.directorsPatternTop {
   position: absolute;
   top: -25px;
   left: 0;
@@ -298,7 +298,7 @@
   z-index: 1;
 }
 
-.directors-pattern-bottom {
+.directorsPatternBottom {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -329,23 +329,23 @@
     margin-right: 48px;
   }
 
-  .hero-content {
+  .heroContent {
     flex-direction: column;
     align-items: center;
     gap: 24px;
   }
 
-  .hero-title {
-    font-size: var(--fs-h1-sm);
-    line-height: var(--lh-h1-sm);
+  .heroTitle {
+    font-size: var(--fsH1Sm);
+    line-height: var(--lhH1Sm);
   }
 
-  .accent-line,
-  .pattern-left {
+  .accentLine,
+  .patternLeft {
     display: none;
   }
 
-  .pattern-bottom {
+  .patternBottom {
     right: 50%;
     transform: translateX(50%);
   }
@@ -354,13 +354,13 @@
     padding: 100px 0 128px;
   }
 
-  .directors-title {
+  .directorsTitle {
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 48px;
   }
 
-  .directors-grid {
+  .directorsGrid {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 11px;
   }
@@ -379,12 +379,12 @@
     margin-bottom: 80px;
   }
 
-  .nav-links,
-  .btn-outline {
+  .navLinks,
+  .btnOutline {
     display: none;
   }
 
-  .hero-title {
+  .heroTitle {
     font-size: 40px;
     line-height: 40px;
   }
@@ -393,12 +393,12 @@
     padding: 88px 0 116px;
   }
 
-  .directors-grid {
+  .directorsGrid {
     grid-template-columns: 1fr;
     row-gap: 52px;
   }
 
-  .directors-pattern-top {
+  .directorsPatternTop {
     top: -100px;
   }
 }
