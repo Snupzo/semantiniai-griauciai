@@ -18,3 +18,8 @@ Website project based on a Figma design. To learn how to work in a team and use 
 - Ilja
 - Aringas
 - Justinas
+
+## MVP
+
+- Desktop version made using Figma design.
+- Links working.
